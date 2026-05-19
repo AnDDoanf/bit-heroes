@@ -1,0 +1,1852 @@
+{
+  "generatedAt": "2026-05-19T17:59:03.507Z",
+  "counts": {
+    "augments": 92,
+    "categories": 4
+  },
+  "notes": {
+    "description": "Augments provide a small boost to familiars when equipped on that familiar's augment table. There are four types of augments, each of which can be obtained through different means: Bone: Xirtanium Skeletal Linings () Brain: Neurion Stimulators () Chip: Microprocessing Stabilizing () Pump: Radial..."
+  },
+  "augments": [
+    {
+      "slug": "pump-damage-1",
+      "nodeKey": "augment:pump-damage-1",
+      "category": "Pump",
+      "name": "Damage",
+      "effect": "Damage",
+      "order": 1,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-health-2",
+      "nodeKey": "augment:pump-health-2",
+      "category": "Pump",
+      "name": "Health",
+      "effect": "Health",
+      "order": 2,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-speed-3",
+      "nodeKey": "augment:pump-speed-3",
+      "category": "Pump",
+      "name": "Speed",
+      "effect": "Speed",
+      "order": 3,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-evade-chance-4",
+      "nodeKey": "augment:pump-evade-chance-4",
+      "category": "Pump",
+      "name": "Evade Chance",
+      "effect": "Evade Chance",
+      "order": 4,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-damage-enrage-5",
+      "nodeKey": "augment:pump-damage-enrage-5",
+      "category": "Pump",
+      "name": "Damage Enrage",
+      "effect": "Damage Enrage",
+      "order": 5,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-life-steal-6",
+      "nodeKey": "augment:pump-life-steal-6",
+      "category": "Pump",
+      "name": "Life Steal",
+      "effect": "Life Steal",
+      "order": 6,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-dual-strike-7",
+      "nodeKey": "augment:pump-dual-strike-7",
+      "category": "Pump",
+      "name": "Dual Strike",
+      "effect": "Dual Strike",
+      "order": 7,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-damage-reduction-8",
+      "nodeKey": "augment:pump-damage-reduction-8",
+      "category": "Pump",
+      "name": "Damage Reduction",
+      "effect": "Damage Reduction",
+      "order": 8,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-empower-chance-9",
+      "nodeKey": "augment:pump-empower-chance-9",
+      "category": "Pump",
+      "name": "Empower Chance",
+      "effect": "Empower Chance",
+      "order": 9,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-barrier-10",
+      "nodeKey": "augment:pump-barrier-10",
+      "category": "Pump",
+      "name": "Barrier",
+      "effect": "Barrier",
+      "order": 10,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-accuracy-11",
+      "nodeKey": "augment:pump-accuracy-11",
+      "category": "Pump",
+      "name": "Accuracy",
+      "effect": "Accuracy",
+      "order": 11,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-ricochet-chance-12",
+      "nodeKey": "augment:pump-ricochet-chance-12",
+      "category": "Pump",
+      "name": "Ricochet Chance",
+      "effect": "Ricochet Chance",
+      "order": 12,
+      "scaleGroup": "1 to 12",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "pump-block-chance-13",
+      "nodeKey": "augment:pump-block-chance-13",
+      "category": "Pump",
+      "name": "Block Chance",
+      "effect": "Block Chance",
+      "order": 13,
+      "scaleGroup": "13",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "pump-absorb-chance-14",
+      "nodeKey": "augment:pump-absorb-chance-14",
+      "category": "Pump",
+      "name": "Absorb Chance",
+      "effect": "Absorb Chance",
+      "order": 14,
+      "scaleGroup": "14 - 16",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.05 - 0.25",
+        "Rare": "0.3 - 0.5",
+        "Epic": "0.55 - 0.75",
+        "Legendary": "0.8 - 1",
+        "Mythic": "1.25"
+      }
+    },
+    {
+      "slug": "pump-deflect-chance-15",
+      "nodeKey": "augment:pump-deflect-chance-15",
+      "category": "Pump",
+      "name": "Deflect Chance",
+      "effect": "Deflect Chance",
+      "order": 15,
+      "scaleGroup": "14 - 16",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.05 - 0.25",
+        "Rare": "0.3 - 0.5",
+        "Epic": "0.55 - 0.75",
+        "Legendary": "0.8 - 1",
+        "Mythic": "1.25"
+      }
+    },
+    {
+      "slug": "pump-team-enrage-16",
+      "nodeKey": "augment:pump-team-enrage-16",
+      "category": "Pump",
+      "name": "Team Enrage",
+      "effect": "Team Enrage",
+      "order": 16,
+      "scaleGroup": "14 - 16",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/c/c2/Augment_PumpLegendary.png/revision/latest?cb=20200825200148",
+      "imagePath": "/assets/augments/Augment_PumpLegendary.png",
+      "sourceImageFileName": "Augment_PumpLegendary.png",
+      "rarityValues": {
+        "Common": "0.05 - 0.25",
+        "Rare": "0.3 - 0.5",
+        "Epic": "0.55 - 0.75",
+        "Legendary": "0.8 - 1",
+        "Mythic": "1.25"
+      }
+    },
+    {
+      "slug": "bone-x-redirect-chance-1",
+      "nodeKey": "augment:bone-x-redirect-chance-1",
+      "category": "Bone",
+      "name": "X% Redirect chance",
+      "effect": "X% Redirect chance",
+      "order": 1,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-while-at-full-health-sp-regeneration-increased-by-x-2",
+      "nodeKey": "augment:bone-while-at-full-health-sp-regeneration-increased-by-x-2",
+      "category": "Bone",
+      "name": "While at full health, SP regeneration increased by X%",
+      "effect": "While at full health, SP regeneration increased by X%",
+      "order": 2,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-your-first-attack-on-an-opponent-deals-x-increased-damage-3",
+      "nodeKey": "augment:bone-your-first-attack-on-an-opponent-deals-x-increased-damage-3",
+      "category": "Bone",
+      "name": "Your first attack on an opponent deals X% increased damage",
+      "effect": "Your first attack on an opponent deals X% increased damage",
+      "order": 3,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-your-opponents-first-attack-on-you-deals-x-reduced-damage-4",
+      "nodeKey": "augment:bone-your-opponents-first-attack-on-you-deals-x-reduced-damage-4",
+      "category": "Bone",
+      "name": "Your opponents first attack on you deals X% reduced damage",
+      "effect": "Your opponents first attack on you deals X% reduced damage",
+      "order": 4,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-your-first-attack-on-an-opponent-has-a-x-increased-chance-to-be-empowered-5",
+      "nodeKey": "augment:bone-your-first-attack-on-an-opponent-has-a-x-increased-chance-to-be-empowered-5",
+      "category": "Bone",
+      "name": "Your first attack on an opponent has a X% increased chance to be empowered",
+      "effect": "Your first attack on an opponent has a X% increased chance to be empowered",
+      "order": 5,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-your-opponents-first-attack-on-you-has-a-x-increased-chance-to-be-evaded-6",
+      "nodeKey": "augment:bone-your-opponents-first-attack-on-you-has-a-x-increased-chance-to-be-evaded-6",
+      "category": "Bone",
+      "name": "Your opponents first attack on you has a X% increased chance to be evaded",
+      "effect": "Your opponents first attack on you has a X% increased chance to be evaded",
+      "order": 6,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-while-above-75-health-gain-x-block-chance-7",
+      "nodeKey": "augment:bone-while-above-75-health-gain-x-block-chance-7",
+      "category": "Bone",
+      "name": "While above 75% health, gain X% Block Chance",
+      "effect": "While above 75% health, gain X% Block Chance",
+      "order": 7,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-x-chance-for-skills-to-not-spend-sp-8",
+      "nodeKey": "augment:bone-x-chance-for-skills-to-not-spend-sp-8",
+      "category": "Bone",
+      "name": "X% chance for skills to not spend SP",
+      "effect": "X% chance for skills to not spend SP",
+      "order": 8,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-deal-x-more-damage-to-enemies-above-75-health-9",
+      "nodeKey": "augment:bone-deal-x-more-damage-to-enemies-above-75-health-9",
+      "category": "Bone",
+      "name": "Deal X% more damage to enemies above 75% health",
+      "effect": "Deal X% more damage to enemies above 75% health",
+      "order": 9,
+      "scaleGroup": "1 to 9",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "bone-while-below-25-health-heals-received-from-skills-are-x-more-effective-10",
+      "nodeKey": "augment:bone-while-below-25-health-heals-received-from-skills-are-x-more-effective-10",
+      "category": "Bone",
+      "name": "While below 25% health, heals received from skills are X% more effective",
+      "effect": "While below 25% health, heals received from skills are X% more effective",
+      "order": 10,
+      "scaleGroup": "10 & 11",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "5.5 - 7.5",
+        "Rare": "8 - 9.5",
+        "Epic": "10.5 - 12.5",
+        "Legendary": "13 - 15",
+        "Mythic": "17.5"
+      }
+    },
+    {
+      "slug": "bone-drain-x-sp-from-an-opponent-when-you-defeat-them-11",
+      "nodeKey": "augment:bone-drain-x-sp-from-an-opponent-when-you-defeat-them-11",
+      "category": "Bone",
+      "name": "Drain X% SP from an opponent when you defeat them",
+      "effect": "Drain X% SP from an opponent when you defeat them",
+      "order": 11,
+      "scaleGroup": "10 & 11",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "5.5 - 7.5",
+        "Rare": "8 - 9.5",
+        "Epic": "10.5 - 12.5",
+        "Legendary": "13 - 15",
+        "Mythic": "17.5"
+      }
+    },
+    {
+      "slug": "bone-your-opponents-first-attack-on-you-has-a-x-increased-chance-to-be-deflected-12",
+      "nodeKey": "augment:bone-your-opponents-first-attack-on-you-has-a-x-increased-chance-to-be-deflected-12",
+      "category": "Bone",
+      "name": "Your opponents first attack on you has a X% increased chance to be deflected",
+      "effect": "Your opponents first attack on you has a X% increased chance to be deflected",
+      "order": 12,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-your-opponents-first-attack-on-you-has-a-x-increased-chance-to-be-absorbed-13",
+      "nodeKey": "augment:bone-your-opponents-first-attack-on-you-has-a-x-increased-chance-to-be-absorbed-13",
+      "category": "Bone",
+      "name": "Your opponents first attack on you has a X% increased chance to be absorbed",
+      "effect": "Your opponents first attack on you has a X% increased chance to be absorbed",
+      "order": 13,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-while-above-75-health-gain-x-more-damage-14",
+      "nodeKey": "augment:bone-while-above-75-health-gain-x-more-damage-14",
+      "category": "Bone",
+      "name": "While above 75% health, gain X% more damage",
+      "effect": "While above 75% health, gain X% more damage",
+      "order": 14,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-while-above-75-health-attacks-against-you-deal-x-reduced-damage-15",
+      "nodeKey": "augment:bone-while-above-75-health-attacks-against-you-deal-x-reduced-damage-15",
+      "category": "Bone",
+      "name": "While above 75% health, attacks against you deal X% reduced damage",
+      "effect": "While above 75% health, attacks against you deal X% reduced damage",
+      "order": 15,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-while-below-25-health-gain-x-deflect-16",
+      "nodeKey": "augment:bone-while-below-25-health-gain-x-deflect-16",
+      "category": "Bone",
+      "name": "While below 25% health, gain X% Deflect",
+      "effect": "While below 25% health, gain X% Deflect",
+      "order": 16,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-while-below-25-health-gain-x-absorb-17",
+      "nodeKey": "augment:bone-while-below-25-health-gain-x-absorb-17",
+      "category": "Bone",
+      "name": "While below 25% health, gain X% Absorb",
+      "effect": "While below 25% health, gain X% Absorb",
+      "order": 17,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-teammates-behind-you-gain-x-damage-reduction-18",
+      "nodeKey": "augment:bone-teammates-behind-you-gain-x-damage-reduction-18",
+      "category": "Bone",
+      "name": "Teammates behind you gain X% damage reduction",
+      "effect": "Teammates behind you gain X% damage reduction",
+      "order": 18,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-teammates-behind-you-gain-x-damage-19",
+      "nodeKey": "augment:bone-teammates-behind-you-gain-x-damage-19",
+      "category": "Bone",
+      "name": "Teammates behind you gain X% damage",
+      "effect": "Teammates behind you gain X% damage",
+      "order": 19,
+      "scaleGroup": "12 to 19",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "bone-x-of-overhealing-converts-to-shields-20",
+      "nodeKey": "augment:bone-x-of-overhealing-converts-to-shields-20",
+      "category": "Bone",
+      "name": "X% of overhealing converts to shields",
+      "effect": "X% of overhealing converts to shields",
+      "order": 20,
+      "scaleGroup": "20",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "bone-x-of-overkill-damage-ricochets-21",
+      "nodeKey": "augment:bone-x-of-overkill-damage-ricochets-21",
+      "category": "Bone",
+      "name": "X% of overkill damage ricochets",
+      "effect": "X% of overkill damage ricochets",
+      "order": 21,
+      "scaleGroup": "21",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "6",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "bone-x-max-shields-22",
+      "nodeKey": "augment:bone-x-max-shields-22",
+      "category": "Bone",
+      "name": "+X% Max Shields",
+      "effect": "+X% Max Shields",
+      "order": 22,
+      "scaleGroup": "22",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.5",
+        "Rare": "1",
+        "Epic": "2",
+        "Legendary": "3",
+        "Mythic": "4"
+      }
+    },
+    {
+      "slug": "bone-x-empower-for-each-sp-you-have-23",
+      "nodeKey": "augment:bone-x-empower-for-each-sp-you-have-23",
+      "category": "Bone",
+      "name": "+X% Empower for each SP you have",
+      "effect": "+X% Empower for each SP you have",
+      "order": 23,
+      "scaleGroup": "23",
+      "material": "Regulator",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/9/9f/Augment_BoneLegendary.png/revision/latest?cb=20200825200123",
+      "imagePath": "/assets/augments/Augment_BoneLegendary.png",
+      "sourceImageFileName": "Augment_BoneLegendary.png",
+      "rarityValues": {
+        "Common": "0.25",
+        "Rare": "0.5",
+        "Epic": "0.75",
+        "Legendary": "1",
+        "Mythic": "1.25"
+      }
+    },
+    {
+      "slug": "chip-gain-damage-reduction-the-higher-your-health-percentage-is-up-to-a-maximum-of-x-1",
+      "nodeKey": "augment:chip-gain-damage-reduction-the-higher-your-health-percentage-is-up-to-a-maximum-of-x-1",
+      "category": "Chip",
+      "name": "Gain damage reduction the higher your health percentage is, up to a maximum of X%",
+      "effect": "Gain damage reduction the higher your health percentage is, up to a maximum of X%",
+      "order": 1,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-gain-x-damage-reduction-while-all-teammates-are-alive-2",
+      "nodeKey": "augment:chip-gain-x-damage-reduction-while-all-teammates-are-alive-2",
+      "category": "Chip",
+      "name": "Gain X% Damage Reduction while all teammates are alive",
+      "effect": "Gain X% Damage Reduction while all teammates are alive",
+      "order": 2,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-gain-increased-damage-the-higher-your-target-s-health-percentage-is-up-to-a-maximum-of-x-1-3",
+      "nodeKey": "augment:chip-gain-increased-damage-the-higher-your-target-s-health-percentage-is-up-to-a-maximum-of-x-1-3",
+      "category": "Chip",
+      "name": "Gain increased damage the higher your target's health percentage is, up to a maximum of X% [ 1 ]",
+      "effect": "Gain increased damage the higher your target's health percentage is, up to a maximum of X% [ 1 ]",
+      "order": 3,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-gain-x-damage-reduction-while-shielded-4",
+      "nodeKey": "augment:chip-gain-x-damage-reduction-while-shielded-4",
+      "category": "Chip",
+      "name": "Gain X% Damage Reduction while shielded",
+      "effect": "Gain X% Damage Reduction while shielded",
+      "order": 4,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-gain-x-damage-25-reduced-shields-5",
+      "nodeKey": "augment:chip-gain-x-damage-25-reduced-shields-5",
+      "category": "Chip",
+      "name": "Gain X% damage, 25% reduced shields",
+      "effect": "Gain X% damage, 25% reduced shields",
+      "order": 5,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-x-evade-chance-20-sp-regeneration-6",
+      "nodeKey": "augment:chip-x-evade-chance-20-sp-regeneration-6",
+      "category": "Chip",
+      "name": "X% Evade chance, -20% SP regeneration",
+      "effect": "X% Evade chance, -20% SP regeneration",
+      "order": 6,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-team-sp-regeneration-increased-by-x-7",
+      "nodeKey": "augment:chip-team-sp-regeneration-increased-by-x-7",
+      "category": "Chip",
+      "name": "Team SP regeneration increased by X%",
+      "effect": "Team SP regeneration increased by X%",
+      "order": 7,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-gain-x-damage-reduction-if-you-have-the-lowest-health-on-your-team-8",
+      "nodeKey": "augment:chip-gain-x-damage-reduction-if-you-have-the-lowest-health-on-your-team-8",
+      "category": "Chip",
+      "name": "Gain X% Damage Reduction if you have the lowest health on your team",
+      "effect": "Gain X% Damage Reduction if you have the lowest health on your team",
+      "order": 8,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-revitalize-9",
+      "nodeKey": "augment:chip-revitalize-9",
+      "category": "Chip",
+      "name": "Revitalize",
+      "effect": "spread heal for X% when you hit an enemy",
+      "order": 9,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-bolster-10",
+      "nodeKey": "augment:chip-bolster-10",
+      "category": "Chip",
+      "name": "Bolster",
+      "effect": "spread shield for X% when you hit an enemy",
+      "order": 10,
+      "scaleGroup": "1 to 10",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.1 - 0.5",
+        "Rare": "0.6 - 1",
+        "Epic": "1.1 - 1.5",
+        "Legendary": "1.6 - 2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "chip-skills-that-cost-sp-deal-x-increased-damage-2-11",
+      "nodeKey": "augment:chip-skills-that-cost-sp-deal-x-increased-damage-2-11",
+      "category": "Chip",
+      "name": "Skills that cost SP deal X% increased damage [ 2 ]",
+      "effect": "Skills that cost SP deal X% increased damage [ 2 ]",
+      "order": 11,
+      "scaleGroup": "11 to 13",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.1 - 1.5",
+        "Epic": "1.6 - 2",
+        "Legendary": "2.1 - 2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "chip-deal-x-increased-damage-when-the-enemy-team-only-has-1-unit-alive-3-12",
+      "nodeKey": "augment:chip-deal-x-increased-damage-when-the-enemy-team-only-has-1-unit-alive-3-12",
+      "category": "Chip",
+      "name": "Deal X% increased damage when the enemy team only has 1 unit alive [ 3 ]",
+      "effect": "Deal X% increased damage when the enemy team only has 1 unit alive [ 3 ]",
+      "order": 12,
+      "scaleGroup": "11 to 13",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.1 - 1.5",
+        "Epic": "1.6 - 2",
+        "Legendary": "2.1 - 2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "chip-increases-the-potency-of-your-healing-skills-by-x-4-13",
+      "nodeKey": "augment:chip-increases-the-potency-of-your-healing-skills-by-x-4-13",
+      "category": "Chip",
+      "name": "Increases the potency of your Healing Skills by X% [ 4 ]",
+      "effect": "Increases the potency of your Healing Skills by X% [ 4 ]",
+      "order": 13,
+      "scaleGroup": "11 to 13",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.1 - 1.5",
+        "Epic": "1.6 - 2",
+        "Legendary": "2.1 - 2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "chip-x-of-your-healing-skills-also-generate-shields-5-14",
+      "nodeKey": "augment:chip-x-of-your-healing-skills-also-generate-shields-5-14",
+      "category": "Chip",
+      "name": "X% of your Healing Skills also generate Shields [ 5 ]",
+      "effect": "X% of your Healing Skills also generate Shields [ 5 ]",
+      "order": 14,
+      "scaleGroup": "",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "",
+        "Rare": "",
+        "Epic": "",
+        "Legendary": "",
+        "Mythic": ""
+      }
+    },
+    {
+      "slug": "chip-damage-increased-by-x-to-enemies-below-30-health-6-15",
+      "nodeKey": "augment:chip-damage-increased-by-x-to-enemies-below-30-health-6-15",
+      "category": "Chip",
+      "name": "Damage increased by X% to enemies below 30% health [ 6 ]",
+      "effect": "Damage increased by X% to enemies below 30% health [ 6 ]",
+      "order": 15,
+      "scaleGroup": "15 to 17",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "chip-while-below-30-health-gain-x-damage-reduction-16",
+      "nodeKey": "augment:chip-while-below-30-health-gain-x-damage-reduction-16",
+      "category": "Chip",
+      "name": "While below 30% health, gain X% Damage Reduction",
+      "effect": "While below 30% health, gain X% Damage Reduction",
+      "order": 16,
+      "scaleGroup": "15 to 17",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "chip-gain-x-block-chance-if-you-have-the-highest-health-on-your-team-17",
+      "nodeKey": "augment:chip-gain-x-block-chance-if-you-have-the-highest-health-on-your-team-17",
+      "category": "Chip",
+      "name": "Gain X% Block Chance if you have the highest health on your team",
+      "effect": "Gain X% Block Chance if you have the highest health on your team",
+      "order": 17,
+      "scaleGroup": "15 to 17",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "0.2 - 1",
+        "Rare": "1.2 - 2",
+        "Epic": "2.2 - 3",
+        "Legendary": "3.2 - 4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "chip-x-of-overhealing-converts-to-shields-18",
+      "nodeKey": "augment:chip-x-of-overhealing-converts-to-shields-18",
+      "category": "Chip",
+      "name": "X% of overhealing converts to shields",
+      "effect": "X% of overhealing converts to shields",
+      "order": 18,
+      "scaleGroup": "18",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "5.5 - 7.5",
+        "Rare": "8 - 9.5",
+        "Epic": "10.5 - 12.5",
+        "Legendary": "13 - 15",
+        "Mythic": "17.5"
+      }
+    },
+    {
+      "slug": "chip-x-of-overkill-damage-ricochets-19",
+      "nodeKey": "augment:chip-x-of-overkill-damage-ricochets-19",
+      "category": "Chip",
+      "name": "X% of overkill damage ricochets",
+      "effect": "X% of overkill damage ricochets",
+      "order": 19,
+      "scaleGroup": "19",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "2.5",
+        "Rare": "5",
+        "Epic": "7.5",
+        "Legendary": "10",
+        "Mythic": "12.5"
+      }
+    },
+    {
+      "slug": "chip-gain-x-block-chance-20",
+      "nodeKey": "augment:chip-gain-x-block-chance-20",
+      "category": "Chip",
+      "name": "Gain X% Block Chance",
+      "effect": "Gain X% Block Chance",
+      "order": 20,
+      "scaleGroup": "20",
+      "material": "Micron_Chipo",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/4/4b/Augment_ChipLegendary.png/revision/latest?cb=20200825200137",
+      "imagePath": "/assets/augments/Augment_ChipLegendary.png",
+      "sourceImageFileName": "Augment_ChipLegendary.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3.5"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-heal-for-48-per-turn-1",
+      "nodeKey": "augment:brain-x-chance-to-spread-heal-for-48-per-turn-1",
+      "category": "Brain",
+      "name": "X% chance to spread heal for 48% per turn",
+      "effect": "X% chance to spread heal for 48% per turn",
+      "order": 1,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-heal-for-48-when-you-hit-an-enemy-2",
+      "nodeKey": "augment:brain-x-chance-to-spread-heal-for-48-when-you-hit-an-enemy-2",
+      "category": "Brain",
+      "name": "X% chance to spread heal for 48% when you hit an enemy",
+      "effect": "X% chance to spread heal for 48% when you hit an enemy",
+      "order": 2,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-heal-for-48-when-you-get-hit-3",
+      "nodeKey": "augment:brain-x-chance-to-spread-heal-for-48-when-you-get-hit-3",
+      "category": "Brain",
+      "name": "X% chance to spread heal for 48% when you get hit",
+      "effect": "X% chance to spread heal for 48% when you get hit",
+      "order": 3,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-shield-for-44-per-turn-4",
+      "nodeKey": "augment:brain-x-chance-to-spread-shield-for-44-per-turn-4",
+      "category": "Brain",
+      "name": "X% chance to spread shield for 44% per turn",
+      "effect": "X% chance to spread shield for 44% per turn",
+      "order": 4,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-shield-for-44-when-you-hit-an-enemy-5",
+      "nodeKey": "augment:brain-x-chance-to-spread-shield-for-44-when-you-hit-an-enemy-5",
+      "category": "Brain",
+      "name": "X% chance to spread shield for 44% when you hit an enemy",
+      "effect": "X% chance to spread shield for 44% when you hit an enemy",
+      "order": 5,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-shield-for-44-when-you-get-hit-6",
+      "nodeKey": "augment:brain-x-chance-to-spread-shield-for-44-when-you-get-hit-6",
+      "category": "Brain",
+      "name": "X% chance to spread shield for 44% when you get hit",
+      "effect": "X% chance to spread shield for 44% when you get hit",
+      "order": 6,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-heal-and-spread-shield-for-23-per-turn-7",
+      "nodeKey": "augment:brain-x-chance-to-spread-heal-and-spread-shield-for-23-per-turn-7",
+      "category": "Brain",
+      "name": "X% chance to spread heal and spread shield for 23% per turn",
+      "effect": "X% chance to spread heal and spread shield for 23% per turn",
+      "order": 7,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-heal-and-spread-shield-for-23-when-you-hit-an-enemy-8",
+      "nodeKey": "augment:brain-x-chance-to-spread-heal-and-spread-shield-for-23-when-you-hit-an-enemy-8",
+      "category": "Brain",
+      "name": "X% chance to spread heal and spread shield for 23% when you hit an enemy",
+      "effect": "X% chance to spread heal and spread shield for 23% when you hit an enemy",
+      "order": 8,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-spread-heal-and-spread-shield-for-23-when-you-get-hit-9",
+      "nodeKey": "augment:brain-x-chance-to-spread-heal-and-spread-shield-for-23-when-you-get-hit-9",
+      "category": "Brain",
+      "name": "X% chance to spread heal and spread shield for 23% when you get hit",
+      "effect": "X% chance to spread heal and spread shield for 23% when you get hit",
+      "order": 9,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-heal-team-for-24-per-turn-10",
+      "nodeKey": "augment:brain-x-chance-to-heal-team-for-24-per-turn-10",
+      "category": "Brain",
+      "name": "X% chance to heal team for 24% per turn",
+      "effect": "X% chance to heal team for 24% per turn",
+      "order": 10,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-heal-team-for-24-when-you-get-hit-11",
+      "nodeKey": "augment:brain-x-chance-to-heal-team-for-24-when-you-get-hit-11",
+      "category": "Brain",
+      "name": "X% chance to heal team for 24% when you get hit",
+      "effect": "X% chance to heal team for 24% when you get hit",
+      "order": 11,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-heal-team-for-24-when-you-hit-an-enemy-12",
+      "nodeKey": "augment:brain-x-chance-to-heal-team-for-24-when-you-hit-an-enemy-12",
+      "category": "Brain",
+      "name": "X% chance to heal team for 24% when you hit an enemy",
+      "effect": "X% chance to heal team for 24% when you hit an enemy",
+      "order": 12,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-shield-team-for-20-per-turn-13",
+      "nodeKey": "augment:brain-x-chance-to-shield-team-for-20-per-turn-13",
+      "category": "Brain",
+      "name": "X% chance to shield team for 20% per turn",
+      "effect": "X% chance to shield team for 20% per turn",
+      "order": 13,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-shield-team-for-20-when-you-get-hit-14",
+      "nodeKey": "augment:brain-x-chance-to-shield-team-for-20-when-you-get-hit-14",
+      "category": "Brain",
+      "name": "X% chance to shield team for 20% when you get hit",
+      "effect": "X% chance to shield team for 20% when you get hit",
+      "order": 14,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-shield-team-for-20-when-you-hit-an-enemy-15",
+      "nodeKey": "augment:brain-x-chance-to-shield-team-for-20-when-you-hit-an-enemy-15",
+      "category": "Brain",
+      "name": "X% chance to shield team for 20% when you hit an enemy",
+      "effect": "X% chance to shield team for 20% when you hit an enemy",
+      "order": 15,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-heal-and-shield-team-for-11-per-turn-16",
+      "nodeKey": "augment:brain-x-chance-to-heal-and-shield-team-for-11-per-turn-16",
+      "category": "Brain",
+      "name": "X% chance to heal and shield team for 11% per turn",
+      "effect": "X% chance to heal and shield team for 11% per turn",
+      "order": 16,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-heal-and-shield-team-for-11-when-you-get-hit-17",
+      "nodeKey": "augment:brain-x-chance-to-heal-and-shield-team-for-11-when-you-get-hit-17",
+      "category": "Brain",
+      "name": "X% chance to heal and shield team for 11% when you get hit",
+      "effect": "X% chance to heal and shield team for 11% when you get hit",
+      "order": 17,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-heal-and-shield-team-for-11-when-you-hit-an-enemy-18",
+      "nodeKey": "augment:brain-x-chance-to-heal-and-shield-team-for-11-when-you-hit-an-enemy-18",
+      "category": "Brain",
+      "name": "X% chance to heal and shield team for 11% when you hit an enemy",
+      "effect": "X% chance to heal and shield team for 11% when you hit an enemy",
+      "order": 18,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-enemy-team-for-36-per-turn-19",
+      "nodeKey": "augment:brain-x-chance-to-attack-enemy-team-for-36-per-turn-19",
+      "category": "Brain",
+      "name": "X% chance to attack enemy team for 36% per turn",
+      "effect": "X% chance to attack enemy team for 36% per turn",
+      "order": 19,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-enemy-team-for-36-when-you-get-hit-20",
+      "nodeKey": "augment:brain-x-chance-to-attack-enemy-team-for-36-when-you-get-hit-20",
+      "category": "Brain",
+      "name": "X% chance to attack enemy team for 36% when you get hit",
+      "effect": "X% chance to attack enemy team for 36% when you get hit",
+      "order": 20,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-enemy-team-for-36-when-you-hit-an-enemy-21",
+      "nodeKey": "augment:brain-x-chance-to-attack-enemy-team-for-36-when-you-hit-an-enemy-21",
+      "category": "Brain",
+      "name": "X% chance to attack enemy team for 36% when you hit an enemy",
+      "effect": "X% chance to attack enemy team for 36% when you hit an enemy",
+      "order": 21,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-closest-enemy-for-64-per-turn-22",
+      "nodeKey": "augment:brain-x-chance-to-attack-closest-enemy-for-64-per-turn-22",
+      "category": "Brain",
+      "name": "X% chance to attack closest enemy for 64% per turn",
+      "effect": "X% chance to attack closest enemy for 64% per turn",
+      "order": 22,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-closest-enemy-for-64-when-you-get-hit-23",
+      "nodeKey": "augment:brain-x-chance-to-attack-closest-enemy-for-64-when-you-get-hit-23",
+      "category": "Brain",
+      "name": "X% chance to attack closest enemy for 64% when you get hit",
+      "effect": "X% chance to attack closest enemy for 64% when you get hit",
+      "order": 23,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-closest-enemy-for-64-when-you-hit-an-enemy-24",
+      "nodeKey": "augment:brain-x-chance-to-attack-closest-enemy-for-64-when-you-hit-an-enemy-24",
+      "category": "Brain",
+      "name": "X% chance to attack closest enemy for 64% when you hit an enemy",
+      "effect": "X% chance to attack closest enemy for 64% when you hit an enemy",
+      "order": 24,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-strongest-enemy-for-80-per-turn-25",
+      "nodeKey": "augment:brain-x-chance-to-attack-strongest-enemy-for-80-per-turn-25",
+      "category": "Brain",
+      "name": "X% chance to attack strongest enemy for 80% per turn",
+      "effect": "X% chance to attack strongest enemy for 80% per turn",
+      "order": 25,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-strongest-enemy-for-80-when-you-get-hit-26",
+      "nodeKey": "augment:brain-x-chance-to-attack-strongest-enemy-for-80-when-you-get-hit-26",
+      "category": "Brain",
+      "name": "X% chance to attack strongest enemy for 80% when you get hit",
+      "effect": "X% chance to attack strongest enemy for 80% when you get hit",
+      "order": 26,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-strongest-enemy-for-80-when-you-hit-an-enemy-27",
+      "nodeKey": "augment:brain-x-chance-to-attack-strongest-enemy-for-80-when-you-hit-an-enemy-27",
+      "category": "Brain",
+      "name": "X% chance to attack strongest enemy for 80% when you hit an enemy",
+      "effect": "X% chance to attack strongest enemy for 80% when you hit an enemy",
+      "order": 27,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-weakest-enemy-for-54-per-turn-28",
+      "nodeKey": "augment:brain-x-chance-to-attack-weakest-enemy-for-54-per-turn-28",
+      "category": "Brain",
+      "name": "X% chance to attack weakest enemy for 54% per turn",
+      "effect": "X% chance to attack weakest enemy for 54% per turn",
+      "order": 28,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-weakest-enemy-for-54-when-you-get-hit-29",
+      "nodeKey": "augment:brain-x-chance-to-attack-weakest-enemy-for-54-when-you-get-hit-29",
+      "category": "Brain",
+      "name": "X% chance to attack weakest enemy for 54% when you get hit",
+      "effect": "X% chance to attack weakest enemy for 54% when you get hit",
+      "order": 29,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-weakest-enemy-for-54-when-you-hit-an-enemy-30",
+      "nodeKey": "augment:brain-x-chance-to-attack-weakest-enemy-for-54-when-you-hit-an-enemy-30",
+      "category": "Brain",
+      "name": "X% chance to attack weakest enemy for 54% when you hit an enemy",
+      "effect": "X% chance to attack weakest enemy for 54% when you hit an enemy",
+      "order": 30,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-random-enemy-for-76-per-turn-31",
+      "nodeKey": "augment:brain-x-chance-to-attack-random-enemy-for-76-per-turn-31",
+      "category": "Brain",
+      "name": "X% chance to attack random enemy for 76% per turn",
+      "effect": "X% chance to attack random enemy for 76% per turn",
+      "order": 31,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-random-enemy-for-76-when-you-get-hit-32",
+      "nodeKey": "augment:brain-x-chance-to-attack-random-enemy-for-76-when-you-get-hit-32",
+      "category": "Brain",
+      "name": "X% chance to attack random enemy for 76% when you get hit",
+      "effect": "X% chance to attack random enemy for 76% when you get hit",
+      "order": 32,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    },
+    {
+      "slug": "brain-x-chance-to-attack-random-enemy-for-76-when-you-hit-an-enemy-33",
+      "nodeKey": "augment:brain-x-chance-to-attack-random-enemy-for-76-when-you-hit-an-enemy-33",
+      "category": "Brain",
+      "name": "X% chance to attack random enemy for 76% when you hit an enemy",
+      "effect": "X% chance to attack random enemy for 76% when you hit an enemy",
+      "order": 33,
+      "scaleGroup": "1 to 33",
+      "material": "Brainstem",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/6/68/Augment_BrainLegendary.png/revision/latest?cb=20200825200131",
+      "imagePath": "/assets/augments/Augment_BrainLegendary.png",
+      "sourceImageFileName": "Augment_BrainLegendary.png",
+      "rarityValues": {
+        "Common": "1.5 - 2.5",
+        "Rare": "4 - 5",
+        "Epic": "6.5 - 7.5",
+        "Legendary": "9 - 10",
+        "Mythic": "11"
+      }
+    }
+  ]
+}

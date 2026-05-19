@@ -1,0 +1,1209 @@
+{
+  "generatedAt": "2026-05-19T17:59:03.510Z",
+  "counts": {
+    "runes": 63,
+    "categories": 5
+  },
+  "notes": {
+    "description": "Runes provide a boost to the player when activated in their rune table. In total, there are 5 different types of runes: Minor () Major () Meta () Relic () Artifact () Runes may be permanently inserted into a slot, but may not be moved to another slot once placed. The player may have multiple..."
+  },
+  "runes": [
+    {
+      "slug": "minor-zyrk-1",
+      "nodeKey": "rune:minor-zyrk-1",
+      "category": "Minor",
+      "name": "Zyrk",
+      "effect": "+ Experience",
+      "order": 1,
+      "scaleGroup": "1 to 3",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/5/5b/Rune_MinorLegendaryRandom.png/revision/latest?cb=20200825201511",
+      "imagePath": "/assets/runes/Rune_MinorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MinorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "10",
+        "Epic": "15",
+        "Legendary": "20",
+        "Mythic": "25"
+      }
+    },
+    {
+      "slug": "minor-quindi-2",
+      "nodeKey": "rune:minor-quindi-2",
+      "category": "Minor",
+      "name": "Quindi",
+      "effect": "+ Capture Rate",
+      "order": 2,
+      "scaleGroup": "1 to 3",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/5/5b/Rune_MinorLegendaryRandom.png/revision/latest?cb=20200825201511",
+      "imagePath": "/assets/runes/Rune_MinorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MinorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "10",
+        "Epic": "15",
+        "Legendary": "20",
+        "Mythic": "25"
+      }
+    },
+    {
+      "slug": "minor-dar-3",
+      "nodeKey": "rune:minor-dar-3",
+      "category": "Minor",
+      "name": "Dar",
+      "effect": "+ Gold Find",
+      "order": 3,
+      "scaleGroup": "1 to 3",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/5/5b/Rune_MinorLegendaryRandom.png/revision/latest?cb=20200825201511",
+      "imagePath": "/assets/runes/Rune_MinorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MinorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "10",
+        "Epic": "15",
+        "Legendary": "20",
+        "Mythic": "25"
+      }
+    },
+    {
+      "slug": "minor-vryn-4",
+      "nodeKey": "rune:minor-vryn-4",
+      "category": "Minor",
+      "name": "Vryn",
+      "effect": "+ Item Find",
+      "order": 4,
+      "scaleGroup": "4",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/5/5b/Rune_MinorLegendaryRandom.png/revision/latest?cb=20200825201511",
+      "imagePath": "/assets/runes/Rune_MinorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MinorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "7.5",
+        "Rare": "15",
+        "Epic": "22.5",
+        "Legendary": "30",
+        "Mythic": "37.5"
+      }
+    },
+    {
+      "slug": "major-tol-1",
+      "nodeKey": "rune:major-tol-1",
+      "category": "Major",
+      "name": "Tol",
+      "effect": "+ Empower Chance",
+      "order": 1,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-isa-2",
+      "nodeKey": "rune:major-isa-2",
+      "category": "Major",
+      "name": "Isa",
+      "effect": "+ Damage Reduction",
+      "order": 2,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-vex-3",
+      "nodeKey": "rune:major-vex-3",
+      "category": "Major",
+      "name": "Vex",
+      "effect": "+ Dual Strike",
+      "order": 3,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-pire-4",
+      "nodeKey": "rune:major-pire-4",
+      "category": "Major",
+      "name": "Pire",
+      "effect": "+ Life Steal",
+      "order": 4,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-phir-5",
+      "nodeKey": "rune:major-phir-5",
+      "category": "Major",
+      "name": "Phir",
+      "effect": "+ Damage Enrage",
+      "order": 5,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-dej-6",
+      "nodeKey": "rune:major-dej-6",
+      "category": "Major",
+      "name": "Dej",
+      "effect": "+ Evade Chance",
+      "order": 6,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-ora-7",
+      "nodeKey": "rune:major-ora-7",
+      "category": "Major",
+      "name": "Ora",
+      "effect": "+ Speed",
+      "order": 7,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-ixu-8",
+      "nodeKey": "rune:major-ixu-8",
+      "category": "Major",
+      "name": "Ixu",
+      "effect": "+ Health",
+      "order": 8,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-ogok-9",
+      "nodeKey": "rune:major-ogok-9",
+      "category": "Major",
+      "name": "Ogok",
+      "effect": "+ Damage",
+      "order": 9,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-fehu-10",
+      "nodeKey": "rune:major-fehu-10",
+      "category": "Major",
+      "name": "Fehu",
+      "effect": "+ Barrier",
+      "order": 10,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-uriz-11",
+      "nodeKey": "rune:major-uriz-11",
+      "category": "Major",
+      "name": "Uriz",
+      "effect": "+ Accuracy",
+      "order": 11,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-anjo-12",
+      "nodeKey": "rune:major-anjo-12",
+      "category": "Major",
+      "name": "Anjo",
+      "effect": "+ Ricochet Chance",
+      "order": 12,
+      "scaleGroup": "1 to 12",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "1.5",
+        "Epic": "2",
+        "Legendary": "2.5",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "major-nul-13",
+      "nodeKey": "rune:major-nul-13",
+      "category": "Major",
+      "name": "Nul",
+      "effect": "+ Absorb Chance",
+      "order": 13,
+      "scaleGroup": "13 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "0.5",
+        "Rare": "0.75",
+        "Epic": "1",
+        "Legendary": "1.25",
+        "Mythic": "1.5"
+      }
+    },
+    {
+      "slug": "major-voik-14",
+      "nodeKey": "rune:major-voik-14",
+      "category": "Major",
+      "name": "Voik",
+      "effect": "+ Deflect Chance",
+      "order": 14,
+      "scaleGroup": "13 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "0.5",
+        "Rare": "0.75",
+        "Epic": "1",
+        "Legendary": "1.25",
+        "Mythic": "1.5"
+      }
+    },
+    {
+      "slug": "major-renaz-15",
+      "nodeKey": "rune:major-renaz-15",
+      "category": "Major",
+      "name": "Renaz",
+      "effect": "+ Team Enrage",
+      "order": 15,
+      "scaleGroup": "13 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "0.5",
+        "Rare": "0.75",
+        "Epic": "1",
+        "Legendary": "1.25",
+        "Mythic": "1.5"
+      }
+    },
+    {
+      "slug": "major-nokai-16",
+      "nodeKey": "rune:major-nokai-16",
+      "category": "Major",
+      "name": "Nokai",
+      "effect": "+ Block Chance",
+      "order": 16,
+      "scaleGroup": "16",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/e/ec/Rune_MajorLegendaryRandom.png/revision/latest?cb=20200825201458",
+      "imagePath": "/assets/runes/Rune_MajorLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MajorLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "3",
+        "Epic": "4",
+        "Legendary": "5",
+        "Mythic": "6"
+      }
+    },
+    {
+      "slug": "meta-vend-1",
+      "nodeKey": "rune:meta-vend-1",
+      "category": "Meta",
+      "name": "Vend",
+      "effect": "Your opponents first attack on you has a X% increased chance to be evaded",
+      "order": 1,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-yuh-2",
+      "nodeKey": "rune:meta-yuh-2",
+      "category": "Meta",
+      "name": "Yuh",
+      "effect": "Your first attack on an opponent has a X% increased chance to be empowered",
+      "order": 2,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-kaun-3",
+      "nodeKey": "rune:meta-kaun-3",
+      "category": "Meta",
+      "name": "Kaun",
+      "effect": "Your opponents first attack on you deals X% reduced damage",
+      "order": 3,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-nox-4",
+      "nodeKey": "rune:meta-nox-4",
+      "category": "Meta",
+      "name": "Nox",
+      "effect": "Your first attack on an opponent deals X% increased damage",
+      "order": 4,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-gael-5",
+      "nodeKey": "rune:meta-gael-5",
+      "category": "Meta",
+      "name": "Gael",
+      "effect": "While at full health, SP regeneration increased by X",
+      "order": 5,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-gejo-6",
+      "nodeKey": "rune:meta-gejo-6",
+      "category": "Meta",
+      "name": "Gejo",
+      "effect": "While above 75% health, gain X% block",
+      "order": 6,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-yevra-7",
+      "nodeKey": "rune:meta-yevra-7",
+      "category": "Meta",
+      "name": "Yevra",
+      "effect": "Deal X% more damage to enemies above 75% health",
+      "order": 7,
+      "scaleGroup": "1 to 7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "meta-chet-8",
+      "nodeKey": "rune:meta-chet-8",
+      "category": "Meta",
+      "name": "Chet",
+      "effect": "Drain X% SP from an opponent when you defeat them",
+      "order": 8,
+      "scaleGroup": "8 & 9",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "25",
+        "Rare": "50",
+        "Epic": "75",
+        "Legendary": "100",
+        "Mythic": "125"
+      }
+    },
+    {
+      "slug": "meta-kor-9",
+      "nodeKey": "rune:meta-kor-9",
+      "category": "Meta",
+      "name": "Kor",
+      "effect": "While below 25% health, heals received are X% more effective",
+      "order": 9,
+      "scaleGroup": "8 & 9",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "25",
+        "Rare": "50",
+        "Epic": "75",
+        "Legendary": "100",
+        "Mythic": "125"
+      }
+    },
+    {
+      "slug": "meta-hannaz-10",
+      "nodeKey": "rune:meta-hannaz-10",
+      "category": "Meta",
+      "name": "Hannaz",
+      "effect": "Your opponents first attack on you has a X% increased chance to be deflected",
+      "order": 10,
+      "scaleGroup": "10 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "meta-sowaz-11",
+      "nodeKey": "rune:meta-sowaz-11",
+      "category": "Meta",
+      "name": "Sowaz",
+      "effect": "Your opponents first attack on you has a X% increased chance to be absorbed",
+      "order": 11,
+      "scaleGroup": "10 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "meta-berthro-12",
+      "nodeKey": "rune:meta-berthro-12",
+      "category": "Meta",
+      "name": "Berthro",
+      "effect": "While above 75% health, gain X% more damage",
+      "order": 12,
+      "scaleGroup": "10 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "meta-nauthuz-13",
+      "nodeKey": "rune:meta-nauthuz-13",
+      "category": "Meta",
+      "name": "Nauthuz",
+      "effect": "While above 75% health, attacks against you deal X% reduced damage",
+      "order": 13,
+      "scaleGroup": "10 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "meta-maelir-14",
+      "nodeKey": "rune:meta-maelir-14",
+      "category": "Meta",
+      "name": "Maelir",
+      "effect": "While below 25% health, gain X% deflect",
+      "order": 14,
+      "scaleGroup": "10 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "meta-gerou-15",
+      "nodeKey": "rune:meta-gerou-15",
+      "category": "Meta",
+      "name": "Gerou",
+      "effect": "While below 25% health, gain X% absorb",
+      "order": 15,
+      "scaleGroup": "10 to 15",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "15"
+      }
+    },
+    {
+      "slug": "meta-sol-16",
+      "nodeKey": "rune:meta-sol-16",
+      "category": "Meta",
+      "name": "Sol",
+      "effect": "Attacks on your teammates have a X% chance to redirect to you",
+      "order": 16,
+      "scaleGroup": "16",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "15",
+        "Rare": "20",
+        "Epic": "25",
+        "Legendary": "30",
+        "Mythic": "35"
+      }
+    },
+    {
+      "slug": "meta-grunak-17",
+      "nodeKey": "rune:meta-grunak-17",
+      "category": "Meta",
+      "name": "Grunak",
+      "effect": "X% chance for skills to not spend SP",
+      "order": 17,
+      "scaleGroup": "17 & 18",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "10",
+        "Epic": "15",
+        "Legendary": "20",
+        "Mythic": "25"
+      }
+    },
+    {
+      "slug": "meta-erlun-18",
+      "nodeKey": "rune:meta-erlun-18",
+      "category": "Meta",
+      "name": "Erlun",
+      "effect": "+X% Max Shields",
+      "order": 18,
+      "scaleGroup": "17 & 18",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "10",
+        "Epic": "15",
+        "Legendary": "20",
+        "Mythic": "25"
+      }
+    },
+    {
+      "slug": "meta-velbur-19",
+      "nodeKey": "rune:meta-velbur-19",
+      "category": "Meta",
+      "name": "Velbur",
+      "effect": "X% of overhealing converts to shields",
+      "order": 19,
+      "scaleGroup": "19",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "40",
+        "Rare": "55",
+        "Epic": "70",
+        "Legendary": "85",
+        "Mythic": "100"
+      }
+    },
+    {
+      "slug": "meta-nekth-20",
+      "nodeKey": "rune:meta-nekth-20",
+      "category": "Meta",
+      "name": "Nekth",
+      "effect": "X% of overkill damage ricochets",
+      "order": 20,
+      "scaleGroup": "20",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "20",
+        "Rare": "30",
+        "Epic": "40",
+        "Legendary": "50",
+        "Mythic": "60"
+      }
+    },
+    {
+      "slug": "meta-zunil-21",
+      "nodeKey": "rune:meta-zunil-21",
+      "category": "Meta",
+      "name": "Zunil",
+      "effect": "Teammates behind you gain X% damage reduction",
+      "order": 21,
+      "scaleGroup": "21 & 22",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "3",
+        "Rare": "4",
+        "Epic": "5",
+        "Legendary": "7.5",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "meta-trofik-22",
+      "nodeKey": "rune:meta-trofik-22",
+      "category": "Meta",
+      "name": "Trofik",
+      "effect": "Teammates behind you gain X% damage",
+      "order": 22,
+      "scaleGroup": "21 & 22",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "3",
+        "Rare": "4",
+        "Epic": "5",
+        "Legendary": "7.5",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "meta-murnack-23",
+      "nodeKey": "rune:meta-murnack-23",
+      "category": "Meta",
+      "name": "Murnack",
+      "effect": "+X% Empower for each SP you have",
+      "order": 23,
+      "scaleGroup": "23",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/06/Rune_MetaLegendaryRandom.png/revision/latest?cb=20200825201504",
+      "imagePath": "/assets/runes/Rune_MetaLegendaryRandom.png",
+      "sourceImageFileName": "Rune_MetaLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "relic-mull-1",
+      "nodeKey": "rune:relic-mull-1",
+      "category": "Relic",
+      "name": "Mull",
+      "effect": "X% chance when you hit an enemy to reduce their current health by 10%",
+      "order": 1,
+      "scaleGroup": "1 & 2",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1.25",
+        "Rare": "2.5",
+        "Epic": "3.75",
+        "Legendary": "5",
+        "Mythic": "6.25"
+      }
+    },
+    {
+      "slug": "relic-bonik-2",
+      "nodeKey": "rune:relic-bonik-2",
+      "category": "Relic",
+      "name": "Bonik",
+      "effect": "X% chance when you hit an enemy to reduce current enemy team health by 6%",
+      "order": 2,
+      "scaleGroup": "1 & 2",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1.25",
+        "Rare": "2.5",
+        "Epic": "3.75",
+        "Legendary": "5",
+        "Mythic": "6.25"
+      }
+    },
+    {
+      "slug": "relic-wull-3",
+      "nodeKey": "rune:relic-wull-3",
+      "category": "Relic",
+      "name": "Wull",
+      "effect": "X% chance when you get hit to gain shielding equal to 10% of your current health",
+      "order": 3,
+      "scaleGroup": "3 to 5",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "relic-dralvik-4",
+      "nodeKey": "rune:relic-dralvik-4",
+      "category": "Relic",
+      "name": "Dralvik",
+      "effect": "Revitalize: spread heal for X% when you hit an enemy",
+      "order": 4,
+      "scaleGroup": "3 to 5",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "relic-kofra-5",
+      "nodeKey": "rune:relic-kofra-5",
+      "category": "Relic",
+      "name": "Kofra",
+      "effect": "Bolster: spread shield for X% when you hit an enemy",
+      "order": 5,
+      "scaleGroup": "3 to 5",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "relic-boli-6",
+      "nodeKey": "rune:relic-boli-6",
+      "category": "Relic",
+      "name": "Boli",
+      "effect": "X% chance when you get hit to increase your SP by 1",
+      "order": 6,
+      "scaleGroup": "6",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "10",
+        "Rare": "15",
+        "Epic": "20",
+        "Legendary": "25",
+        "Mythic": "30"
+      }
+    },
+    {
+      "slug": "relic-filbur-7",
+      "nodeKey": "rune:relic-filbur-7",
+      "category": "Relic",
+      "name": "Filbur",
+      "effect": "X% chance when you hit an enemy to reduce their SP by 1",
+      "order": 7,
+      "scaleGroup": "7",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "5",
+        "Rare": "7.5",
+        "Epic": "10",
+        "Legendary": "12.5",
+        "Mythic": "17.5"
+      }
+    },
+    {
+      "slug": "relic-hleffin-8",
+      "nodeKey": "rune:relic-hleffin-8",
+      "category": "Relic",
+      "name": "Hleffin",
+      "effect": "X% chance when you hit an enemy to gain shielding equal to 10% of your current health",
+      "order": 8,
+      "scaleGroup": "8",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "0.5",
+        "Rare": "1",
+        "Epic": "1.5",
+        "Legendary": "2",
+        "Mythic": "2.5"
+      }
+    },
+    {
+      "slug": "relic-dagala-9",
+      "nodeKey": "rune:relic-dagala-9",
+      "category": "Relic",
+      "name": "Dagala",
+      "effect": "X% chance when you get hit to heal yourself equal to 10% of your current health",
+      "order": 9,
+      "scaleGroup": "9",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1.5",
+        "Rare": "3",
+        "Epic": "4.5",
+        "Legendary": "6",
+        "Mythic": "7.5"
+      }
+    },
+    {
+      "slug": "relic-argiz-10",
+      "nodeKey": "rune:relic-argiz-10",
+      "category": "Relic",
+      "name": "Argiz",
+      "effect": "50% chance when you get hit to increase your damage reduction by X%, up to five times",
+      "order": 10,
+      "scaleGroup": "10",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/3/34/Rune_RelicLegendaryRandom.png/revision/latest?cb=20200825201516",
+      "imagePath": "/assets/runes/Rune_RelicLegendaryRandom.png",
+      "sourceImageFileName": "Rune_RelicLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "0.5",
+        "Rare": "1",
+        "Epic": "1.5",
+        "Legendary": "2",
+        "Mythic": "3"
+      }
+    },
+    {
+      "slug": "artifact-telgu-1",
+      "nodeKey": "rune:artifact-telgu-1",
+      "category": "Artifact",
+      "name": "Telgu",
+      "effect": "X% chance when you hit an enemy to ignore their defensive bonuses",
+      "order": 1,
+      "scaleGroup": "1 to 4",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "artifact-melgu-2",
+      "nodeKey": "rune:artifact-melgu-2",
+      "category": "Artifact",
+      "name": "Melgu",
+      "effect": "X% chance when you get hit to ignore offensive bonuses",
+      "order": 2,
+      "scaleGroup": "1 to 4",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "artifact-huyrale-3",
+      "nodeKey": "rune:artifact-huyrale-3",
+      "category": "Artifact",
+      "name": "Huyrale",
+      "effect": "While at full health, gain X% deflect",
+      "order": 3,
+      "scaleGroup": "1 to 4",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "artifact-tach-4",
+      "nodeKey": "rune:artifact-tach-4",
+      "category": "Artifact",
+      "name": "Tach",
+      "effect": "While at full health, gain X% evade",
+      "order": 4,
+      "scaleGroup": "1 to 4",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "1",
+        "Rare": "2",
+        "Epic": "3",
+        "Legendary": "4",
+        "Mythic": "5"
+      }
+    },
+    {
+      "slug": "artifact-nonik-5",
+      "nodeKey": "rune:artifact-nonik-5",
+      "category": "Artifact",
+      "name": "Nonik",
+      "effect": "While at full health, gain X% damage reduction",
+      "order": 5,
+      "scaleGroup": "5 to 8",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "6",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "artifact-mayu-6",
+      "nodeKey": "rune:artifact-mayu-6",
+      "category": "Artifact",
+      "name": "Mayu",
+      "effect": "While at full health, damage increased by X%",
+      "order": 6,
+      "scaleGroup": "5 to 8",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "6",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "artifact-thork-7",
+      "nodeKey": "rune:artifact-thork-7",
+      "category": "Artifact",
+      "name": "Thork",
+      "effect": "While at full health, gain X% dual strike",
+      "order": 7,
+      "scaleGroup": "5 to 8",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "6",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "artifact-othale-8",
+      "nodeKey": "rune:artifact-othale-8",
+      "category": "Artifact",
+      "name": "Othale",
+      "effect": "While at full health, gain X% empower",
+      "order": 8,
+      "scaleGroup": "5 to 8",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "6",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "artifact-ulnaed-9",
+      "nodeKey": "rune:artifact-ulnaed-9",
+      "category": "Artifact",
+      "name": "Ulnaed",
+      "effect": "Gain X% damage reduction while shielded",
+      "order": 9,
+      "scaleGroup": "9 & 10",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "5",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    },
+    {
+      "slug": "artifact-harnok-10",
+      "nodeKey": "rune:artifact-harnok-10",
+      "category": "Artifact",
+      "name": "Harnok",
+      "effect": "Gain X% damage reduction if you have the lowest health of your team",
+      "order": 10,
+      "scaleGroup": "9 & 10",
+      "imageUrl": "https://static.wikia.nocookie.net/bit-heroes/images/0/02/Rune_ArtifactLegendaryRandom.png/revision/latest?cb=20200825201443",
+      "imagePath": "/assets/runes/Rune_ArtifactLegendaryRandom.png",
+      "sourceImageFileName": "Rune_ArtifactLegendaryRandom.png",
+      "rarityValues": {
+        "Common": "2",
+        "Rare": "4",
+        "Epic": "5",
+        "Legendary": "8",
+        "Mythic": "10"
+      }
+    }
+  ]
+}
