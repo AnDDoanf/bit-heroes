@@ -1,4 +1,19 @@
-const basePath = process.env.BASE_PATH || "";
+function resolveBasePath() {
+  if (process.env.BASE_PATH) {
+    return process.env.BASE_PATH;
+  }
+
+  const repository = process.env.GITHUB_REPOSITORY || "";
+  const repositoryName = repository.split("/")[1] || "";
+
+  if (process.env.GITHUB_ACTIONS === "true" && repositoryName) {
+    return `/${repositoryName}`;
+  }
+
+  return "";
+}
+
+const basePath = resolveBasePath();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
