@@ -44,6 +44,14 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Inspect exported asset paths
+        run: |
+          echo "Expected base path: ${BASE_PATH}"
+          echo "CSS references:"
+          grep -o '/[^"]*_next[^"]*\.css' out/index.html || true
+          echo "JS references:"
+          grep -o '/[^"]*_next[^"]*\.js' out/index.html || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
