@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "node scripts/sync-public-assets.mjs && next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "cross-env BASE_PATH=/bit-heroes gh-pages -d out",
+    "predeploy": "cross-env BASE_PATH=/bit-heroes npm run build",
+    "deploy": "gh-pages -d out",
     "extract": "node scripts/extract-data.mjs",
     "download:assets": "node scripts/download-assets.mjs",
     "prepare:data": "npm run extract && npm run download:assets"
