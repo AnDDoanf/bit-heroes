@@ -5,16 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build",
+    "deploy": "cross-env BASE_PATH=/bit-heroes gh-pages -d out",
     "extract": "node scripts/extract-data.mjs",
     "download:assets": "node scripts/download-assets.mjs",
     "prepare:data": "npm run extract && npm run download:assets"
   },
   "devDependencies": {
-  "gh-pages": "^5.0.0"
+    "cross-env": "^10.1.0",
+    "gh-pages": "^5.0.0"
   },
   "dependencies": {
     "next": "^15.3.2",
