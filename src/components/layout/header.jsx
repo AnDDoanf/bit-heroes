@@ -6,6 +6,13 @@ export function Header({ activeTab, setActiveTab }) {
   const [openDropdown, setOpenDropdown] = useState("");
   const lastScrollY = useRef(0);
   const navRef = useRef(null);
+  const hoverTimerRef = useRef(null);
+  const closeHoverTimer = () => {
+    if (hoverTimerRef.current) {
+      window.clearTimeout(hoverTimerRef.current);
+      hoverTimerRef.current = null;
+    }
+  };
   const dropdownGroups = [
     {
       id: "fusion",
@@ -98,8 +105,27 @@ export function Header({ activeTab, setActiveTab }) {
     };
   }, [openDropdown]);
 
+  useEffect(() => () => closeHoverTimer(), []);
+
   const isDropdownActive = (group) =>
     group.items.some((item) => item.id === activeTab);
+
+  const handleDropdownMouseEnter = (groupId) => {
+    if (window.innerWidth <= 720) return;
+
+    closeHoverTimer();
+    hoverTimerRef.current = window.setTimeout(() => {
+      setOpenDropdown(groupId);
+      hoverTimerRef.current = null;
+    }, 200);
+  };
+
+  const handleDropdownMouseLeave = () => {
+    if (window.innerWidth <= 720) return;
+
+    closeHoverTimer();
+    setOpenDropdown("");
+  };
 
   return (
     <>
@@ -156,6 +182,8 @@ export function Header({ activeTab, setActiveTab }) {
           <div
             key={group.id}
             className={`menu-dropdown ${openDropdown === group.id ? "open" : ""}`}
+            onMouseEnter={() => handleDropdownMouseEnter(group.id)}
+            onMouseLeave={handleDropdownMouseLeave}
           >
             <button
               className={`tab-button dropdown-trigger ${isDropdownActive(group) ? "active" : ""}`}
