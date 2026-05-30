@@ -120,13 +120,6 @@ export function Header({ activeTab, setActiveTab }) {
     }, 200);
   };
 
-  const handleDropdownMouseLeave = () => {
-    if (window.innerWidth <= 720) return;
-
-    closeHoverTimer();
-    setOpenDropdown("");
-  };
-
   return (
     <>
       {isMenuOpen ? (
@@ -183,17 +176,12 @@ export function Header({ activeTab, setActiveTab }) {
             key={group.id}
             className={`menu-dropdown ${openDropdown === group.id ? "open" : ""}`}
             onMouseEnter={() => handleDropdownMouseEnter(group.id)}
-            onMouseLeave={handleDropdownMouseLeave}
           >
             <button
               className={`tab-button dropdown-trigger ${isDropdownActive(group) ? "active" : ""}`}
               type="button"
               aria-expanded={openDropdown === group.id}
-              onClick={() =>
-                setOpenDropdown((current) =>
-                  current === group.id ? "" : group.id,
-                )
-              }
+              onClick={() => setOpenDropdown(group.id)}
             >
               {group.label}
               <span className="dropdown-caret">▾</span>
