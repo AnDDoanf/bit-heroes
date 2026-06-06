@@ -1,5 +1,25 @@
 import { useState, useEffect, useRef } from "react";
 
+function BookIcon() {
+  return (
+    <svg
+      className="tab-button-icon"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M4.5 5.5a2.5 2.5 0 0 1 2.5-2.5h10.5v16H7A2.5 2.5 0 0 0 4.5 21z" />
+      <path d="M7 3v16" />
+      <path d="M17.5 5H9.5" />
+      <path d="M17.5 9H9.5" />
+    </svg>
+  );
+}
+
 export function Header({ activeTab, setActiveTab }) {
   const [isVisible, setIsVisible] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,40 +61,40 @@ export function Header({ activeTab, setActiveTab }) {
     },
   ];
   const directTabs = [
-    { id: "dashboard", label: "Dashboard" },
     { id: "materials", label: "Materials" },
   ];
 
   useEffect(() => {
     let ticking = false;
+    lastScrollY.current = window.scrollY;
 
     const handleScroll = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          if (window.innerWidth <= 720) {
+          const currentScrollY = window.scrollY;
+          const delta = currentScrollY - lastScrollY.current;
+
+          if (isMenuOpen) {
             setIsVisible(true);
-            lastScrollY.current = window.scrollY;
+            lastScrollY.current = currentScrollY;
             ticking = false;
             return;
           }
 
-          const currentScrollY = window.scrollY;
-          
-          // Show header if scrolling up, hide if scrolling down
-          if (currentScrollY > lastScrollY.current && currentScrollY > 80) {
-            setIsVisible((prev) => {
-              if (prev === true) return false;
-              return prev;
-            });
-            setIsMenuOpen(false); // Close mobile menu when scrolling down
-            setOpenDropdown("");
-          } else {
-            setIsVisible((prev) => {
-              if (prev === false) return true;
-              return prev;
-            });
+          if (currentScrollY <= 24) {
+            setIsVisible(true);
+          } else if (Math.abs(delta) >= 8) {
+            if (delta > 0 && currentScrollY > 80) {
+              setIsVisible(false);
+            } else if (delta < 0) {
+              setIsVisible(true);
+            }
           }
-          
+
+          if (delta > 0) {
+            setOpenDropdown("");
+          }
+
           lastScrollY.current = currentScrollY;
           ticking = false;
         });
@@ -84,7 +104,26 @@ export function Header({ activeTab, setActiveTab }) {
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    const handlePointerMove = (event) => {
+      if (isMenuOpen) {
+        setIsVisible(true);
+        return;
+      }
+
+      if (window.scrollY > 80 && event.clientY <= 88) {
+        setIsVisible(true);
+      }
+    };
+
+    window.addEventListener("pointermove", handlePointerMove, {
+      passive: true,
+    });
+
+    return () => window.removeEventListener("pointermove", handlePointerMove);
+  }, [isMenuOpen]);
 
   useEffect(() => {
     if (!openDropdown) return;
@@ -104,7 +143,12 @@ export function Header({ activeTab, setActiveTab }) {
     };
   }, [openDropdown]);
 
-  useEffect(() => () => closeHoverTimer(), []);
+  useEffect(
+    () => () => {
+      closeHoverTimer();
+    },
+    [],
+  );
 
   const isDropdownActive = (group) =>
     group.items.some((item) => item.id === activeTab);
@@ -153,6 +197,18 @@ export function Header({ activeTab, setActiveTab }) {
       </button>
 
       <nav ref={navRef} className="menu-nav" aria-label="Sections">
+        <button
+          className={`tab-button tab-button-iconic ${activeTab === "how-to-use" ? "active" : ""}`}
+          type="button"
+          onClick={() => {
+            setActiveTab("how-to-use");
+            setIsMenuOpen(false);
+            setOpenDropdown("");
+          }}
+        >
+          <BookIcon/>
+        </button>
+
         <button
           className={`tab-button ${activeTab === "dashboard" ? "active" : ""}`}
           type="button"

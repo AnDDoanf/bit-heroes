@@ -46,6 +46,7 @@ export function parseUrlState(nodeBySlug, petBySlug, equipmentBySlug) {
     requestedTab === "favorites" ||
     (requestedTab === "familiars" && params.get("favorites") === "1");
   const tab =
+    requestedTab === "how-to-use" ||
     requestedTab === "familiars" ||
     requestedTab === "materials" ||
     requestedTab === "dashboard" ||

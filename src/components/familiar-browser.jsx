@@ -5,6 +5,7 @@ import { parseUrlState, buildUrlState } from "../utils";
 import { Header } from "./layout/header";
 import { Footer } from "./layout/footer";
 import { DashboardTab } from "./tabs/dashboard-tab";
+import { HowToUseTab } from "./tabs/how-to-use-tab";
 import { EnchantsTab } from "./tabs/enchants-tab";
 import { EquipmentTab } from "./tabs/equipment-tab";
 import { FamiliarTab } from "./tabs/familiar-tab";
@@ -243,8 +244,8 @@ export default function FamiliarBrowser({
   return (
     <main className="page-shell">
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === "dashboard" ? (
-        <DashboardTab
+      {activeTab === "how-to-use" ? (
+        <HowToUseTab
           familiarData={familiarData}
           materialData={materialData}
           petsData={petsData}
@@ -255,6 +256,20 @@ export default function FamiliarBrowser({
           runesData={runesData}
           onSelectNode={openNode}
           onSelectPet={openPet}
+          onChangeTab={setActiveTab}
+        />
+      ) : null}
+
+      {activeTab === "dashboard" ? (
+        <DashboardTab
+          familiarData={familiarData}
+          materialData={materialData}
+          petsData={petsData}
+          mountsData={mountsData}
+          equipmentsData={equipmentsData}
+          enchantsData={enchantsData}
+          augmentsData={augmentsData}
+          runesData={runesData}
           onChangeTab={setActiveTab}
         />
       ) : null}
