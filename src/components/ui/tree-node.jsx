@@ -1,16 +1,35 @@
 import { assetUrl, rarityClassName } from "../../utils";
 import { RequirementBadge } from "./requirement-badge";
+import { PanelButton } from "./panel-button";
 
 export function TreeNode({
   nodeKey,
   nodeIndex,
   materialIndex,
+  ownedCounts = {},
+  onSetOwnedCount,
   level = 0,
   trail = new Set(),
   quantity = "",
 }) {
   const node = nodeIndex[nodeKey];
   if (!node) return null;
+  const ownedCount = ownedCounts[node.nodeKey] || 0;
+  const requiredCount = Number.parseInt(String(quantity || ""), 10);
+  const hasRequiredCount =
+    Number.isFinite(requiredCount) && requiredCount > 0;
+
+  function handleOwnedChange(value) {
+    if (!onSetOwnedCount) return;
+
+    const parsed = Number.parseInt(String(value || ""), 10);
+    onSetOwnedCount(node.nodeKey, Number.isFinite(parsed) && parsed > 0 ? parsed : 0);
+  }
+
+  function adjustOwnedCount(delta) {
+    if (!onSetOwnedCount) return;
+    onSetOwnedCount(node.nodeKey, Math.max(0, ownedCount + delta));
+  }
 
   const nextTrail = new Set(trail);
   const repeated = nextTrail.has(nodeKey);
@@ -39,6 +58,48 @@ export function TreeNode({
             </div>
           </div>
         </div>
+        <div className="tree-owned-row">
+          <div className="tree-owned-copy">
+            <span>Owned</span>
+            {hasRequiredCount ? (
+              <strong>
+                {ownedCount >= requiredCount
+                  ? "Ready"
+                  : `${requiredCount - ownedCount} short`}
+              </strong>
+            ) : (
+              <strong>Tracked</strong>
+            )}
+          </div>
+          <div className="tree-owned-controls">
+            <PanelButton
+              aria-label={`Decrease owned count for ${node.name}`}
+              className="count-stepper tree-count-stepper"
+              disabled={ownedCount === 0}
+              onClick={() => adjustOwnedCount(-1)}
+            >
+              -
+            </PanelButton>
+            <label className="tree-owned-field">
+              <span className="sr-only">Owned count for {node.name}</span>
+              <input
+                aria-label={`Owned count for ${node.name}`}
+                inputMode="numeric"
+                min="0"
+                onChange={(event) => handleOwnedChange(event.target.value)}
+                type="number"
+                value={ownedCount}
+              />
+            </label>
+            <PanelButton
+              aria-label={`Increase owned count for ${node.name}`}
+              className="count-stepper tree-count-stepper"
+              onClick={() => adjustOwnedCount(1)}
+            >
+              +
+            </PanelButton>
+          </div>
+        </div>
       </div>
       {!repeated && node.requirements?.length ? (
         <div className="tree-children">
@@ -53,6 +114,8 @@ export function TreeNode({
                   nodeKey={requirement.nodeKey}
                   nodeIndex={nodeIndex}
                   materialIndex={materialIndex}
+                  ownedCounts={ownedCounts}
+                  onSetOwnedCount={onSetOwnedCount}
                   level={level + 1}
                   trail={nextTrail}
                   quantity={requirement.quantity}

@@ -492,7 +492,7 @@ select {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 20px;
-  align-items: end;
+  align-items: flex-end;
   background:
     radial-gradient(circle at top right, rgba(182, 81, 45, 0.12), transparent 35%),
     radial-gradient(circle at bottom left, rgba(31, 122, 114, 0.1), transparent 32%),
@@ -914,6 +914,12 @@ select {
   gap: 10px;
 }
 
+.count-stepper {
+  min-width: 40px;
+  padding: 0 12px;
+  font-size: 1rem;
+}
+
 .ownership-field {
   display: grid;
   gap: 6px;
@@ -1023,6 +1029,53 @@ select {
   padding: 12px;
 }
 
+.tree-owned-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(66, 46, 28, 0.1);
+}
+
+.tree-owned-copy span,
+.tree-owned-field span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.74rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.tree-owned-copy strong {
+  font-size: 0.88rem;
+  color: var(--accent-2);
+}
+
+.tree-owned-field input {
+  width: 88px;
+  border: 1px solid var(--line);
+  background: #fffdf8;
+  color: var(--ink);
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
+.tree-owned-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tree-count-stepper {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+}
+
 .tree-requirement {
   display: grid;
   grid-template-columns: 42px 1fr;
@@ -1090,6 +1143,18 @@ select {
   font-size: 0.82rem;
   color: var(--muted);
   line-height: 1.35;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .dependency-list {

@@ -320,10 +320,12 @@ export function FamiliarTab({
                     </div>
                     <div className="ownership-control">
                       <PanelButton
+                        aria-label={`Decrease owned count for ${selectedNode.name}`}
+                        className="count-stepper"
                         onClick={() => adjustOwnedCount(-1)}
                         disabled={selectedOwnedCount === 0}
                       >
-                        -1
+                        -
                       </PanelButton>
                       <label className="ownership-field">
                         <span>Owned</span>
@@ -339,8 +341,12 @@ export function FamiliarTab({
                           value={ownedInput}
                         />
                       </label>
-                      <PanelButton onClick={() => adjustOwnedCount(1)}>
-                        +1
+                      <PanelButton
+                        aria-label={`Increase owned count for ${selectedNode.name}`}
+                        className="count-stepper"
+                        onClick={() => adjustOwnedCount(1)}
+                      >
+                        +
                       </PanelButton>
                     </div>
                   </div>
@@ -455,6 +461,8 @@ export function FamiliarTab({
                         nodeKey={selectedNode.nodeKey}
                         nodeIndex={familiarData.nodeIndex}
                         materialIndex={materialData.materialIndex}
+                        ownedCounts={ownedCounts}
+                        onSetOwnedCount={onSetOwnedCount}
                       />
                     </div>
                   </>
