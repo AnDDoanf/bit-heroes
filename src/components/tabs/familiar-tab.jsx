@@ -21,7 +21,9 @@ export function FamiliarTab({
   selectedKey,
   setSelectedKey,
   favoriteKeys,
+  ownedCounts,
   onToggleFavorite,
+  onSetOwnedCount,
 }) {
   const rarityOptions = useMemo(
     () =>
@@ -36,6 +38,7 @@ export function FamiliarTab({
   const [sortOrder, setSortOrder] = useState("stats");
   const [infoExpanded, setInfoExpanded] = useState(true);
   const [fuseExpanded, setFuseExpanded] = useState(true);
+  const [ownedInput, setOwnedInput] = useState("0");
 
   useEffect(() => {
     setInfoExpanded(true);
@@ -76,6 +79,9 @@ export function FamiliarTab({
     familiarData.nodeIndex[selectedKey] ||
     filteredNodes[0] ||
     familiarData.nodes[0];
+  const selectedOwnedCount = selectedNode
+    ? ownedCounts[selectedNode.nodeKey] || 0
+    : 0;
   const flattenedRequirements = useMemo(
     () =>
       selectedNode?.type === "fusion"
@@ -87,11 +93,42 @@ export function FamiliarTab({
     () => formatLeafRequirements(selectedNode, familiarData.nodeIndex),
     [selectedNode, familiarData.nodeIndex],
   );
+  const ownedSummary = useMemo(() => {
+    const counts = Object.values(ownedCounts);
+    return {
+      unique: counts.length,
+      total: counts.reduce((sum, value) => sum + value, 0),
+    };
+  }, [ownedCounts]);
 
   useEffect(() => {
     if (!selectedNode) return;
     setSelectedKey(selectedNode.nodeKey);
   }, [selectedNode, setSelectedKey]);
+
+  useEffect(() => {
+    setOwnedInput(String(selectedOwnedCount));
+  }, [selectedNode?.nodeKey, selectedOwnedCount]);
+
+  function handleOwnedInputChange(value) {
+    if (!selectedNode) return;
+
+    const digitsOnly = value.replace(/[^\d]/g, "");
+    const normalized = digitsOnly.replace(/^0+(?=\d)/, "");
+    const nextCount =
+      normalized === "" ? 0 : Number.parseInt(normalized, 10) || 0;
+
+    setOwnedInput(normalized);
+    onSetOwnedCount(selectedNode.nodeKey, nextCount);
+  }
+
+  function adjustOwnedCount(delta) {
+    if (!selectedNode) return;
+
+    const nextCount = Math.max(0, selectedOwnedCount + delta);
+    setOwnedInput(String(nextCount));
+    onSetOwnedCount(selectedNode.nodeKey, nextCount);
+  }
 
   return (
     <section className="workspace">
@@ -136,6 +173,16 @@ export function FamiliarTab({
             </select>
           </label>
         </div>
+        <div className="ownership-summary">
+          <div>
+            <span>Total Owned</span>
+            <strong>{ownedSummary.total}</strong>
+          </div>
+          <div>
+            <span>Unique Tracked</span>
+            <strong>{ownedSummary.unique}</strong>
+          </div>
+        </div>
         <div className="node-list">
           {filteredNodes.map((node) => (
             <button
@@ -152,7 +199,7 @@ export function FamiliarTab({
                   alt={node.name}
                 />
               ) : null}
-              <span>
+              <span className="node-copy">
                 <strong>{node.name}</strong>
                 <small>
                   {node.type === "fusion"
@@ -160,6 +207,11 @@ export function FamiliarTab({
                     : `${node.rarity} familiar`}
                   {node.subgroup ? ` / ${node.subgroup}` : ""}
                 </small>
+                {(ownedCounts[node.nodeKey] || 0) > 0 ? (
+                  <em className="owned-badge">
+                    Owned {ownedCounts[node.nodeKey]}
+                  </em>
+                ) : null}
               </span>
             </button>
           ))}
@@ -215,6 +267,41 @@ export function FamiliarTab({
                       Found in {selectedNode.locationText}
                     </p>
                   ) : null}
+
+                  <div className="ownership-panel">
+                    <div>
+                      <span className="section-kicker">Collection Tracker</span>
+                      <p className="ownership-note">
+                        Record how many copies you own. This is saved in local
+                        storage for this browser.
+                      </p>
+                    </div>
+                    <div className="ownership-control">
+                      <PanelButton
+                        onClick={() => adjustOwnedCount(-1)}
+                        disabled={selectedOwnedCount === 0}
+                      >
+                        -1
+                      </PanelButton>
+                      <label className="ownership-field">
+                        <span>Owned</span>
+                        <input
+                          aria-label={`Owned count for ${selectedNode.name}`}
+                          inputMode="numeric"
+                          onBlur={() => setOwnedInput(String(selectedOwnedCount))}
+                          onChange={(event) =>
+                            handleOwnedInputChange(event.target.value)
+                          }
+                          pattern="[0-9]*"
+                          type="text"
+                          value={ownedInput}
+                        />
+                      </label>
+                      <PanelButton onClick={() => adjustOwnedCount(1)}>
+                        +1
+                      </PanelButton>
+                    </div>
+                  </div>
                 </div>
               </div>
 

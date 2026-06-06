@@ -15,6 +15,36 @@ import { PetsTab } from "./tabs/pets-tab";
 import { MountsTab } from "./tabs/mounts-tab";
 import { RunesTab } from "./tabs/runes-tab";
 
+const FAVORITES_STORAGE_KEY = "bit-heroes-favorites";
+const FAMILIAR_COUNTS_STORAGE_KEY = "bit-heroes-familiar-owned-counts";
+
+function sanitizeOwnedCount(value) {
+  const parsed = Number.parseInt(String(value ?? ""), 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
+}
+
+function parseOwnedCounts(rawValue, nodeIndex) {
+  if (!rawValue) {
+    return {};
+  }
+
+  try {
+    const parsed = JSON.parse(rawValue);
+    if (!parsed || Array.isArray(parsed) || typeof parsed !== "object") {
+      return {};
+    }
+
+    return Object.fromEntries(
+      Object.entries(parsed)
+        .filter(([nodeKey]) => nodeIndex[nodeKey])
+        .map(([nodeKey, value]) => [nodeKey, sanitizeOwnedCount(value)])
+        .filter(([, value]) => value > 0),
+    );
+  } catch {
+    return {};
+  }
+}
+
 export default function FamiliarBrowser({
   familiarData,
   materialData,
@@ -70,6 +100,7 @@ export default function FamiliarBrowser({
     equipmentsData.equipments[0]?.nodeKey || "",
   );
   const [favoriteKeys, setFavoriteKeys] = useState([]);
+  const [ownedCounts, setOwnedCounts] = useState({});
   const [showScrollTop, setShowScrollTop] = useState(false);
   const hasHydratedRef = useRef(false);
 
@@ -95,11 +126,32 @@ export default function FamiliarBrowser({
         ? current.filter((key) => key !== nodeKey)
         : [...current, nodeKey];
       if (typeof window !== "undefined") {
+        window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(next));
+      }
+      return next;
+    });
+  }
+
+  function setOwnedCount(nodeKey, value) {
+    if (!nodeKey) return;
+
+    setOwnedCounts((current) => {
+      const next = { ...current };
+      const nextCount = sanitizeOwnedCount(value);
+
+      if (nextCount > 0) {
+        next[nodeKey] = nextCount;
+      } else {
+        delete next[nodeKey];
+      }
+
+      if (typeof window !== "undefined") {
         window.localStorage.setItem(
-          "bit-heroes-favorites",
+          FAMILIAR_COUNTS_STORAGE_KEY,
           JSON.stringify(next),
         );
       }
+
       return next;
     });
   }
@@ -131,7 +183,7 @@ export default function FamiliarBrowser({
 
     applyUrlState();
     try {
-      const raw = window.localStorage.getItem("bit-heroes-favorites");
+      const raw = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
       const parsed = raw ? JSON.parse(raw) : [];
       setFavoriteKeys(
         Array.isArray(parsed)
@@ -141,6 +193,12 @@ export default function FamiliarBrowser({
     } catch {
       setFavoriteKeys([]);
     }
+    setOwnedCounts(
+      parseOwnedCounts(
+        window.localStorage.getItem(FAMILIAR_COUNTS_STORAGE_KEY),
+        familiarData.nodeIndex,
+      ),
+    );
     hasHydratedRef.current = true;
     window.addEventListener("popstate", applyUrlState);
     return () => window.removeEventListener("popstate", applyUrlState);
@@ -206,7 +264,9 @@ export default function FamiliarBrowser({
           selectedKey={selectedKey}
           setSelectedKey={setSelectedKey}
           favoriteKeys={favoriteKeys}
+          ownedCounts={ownedCounts}
           onToggleFavorite={toggleFavorite}
+          onSetOwnedCount={setOwnedCount}
         />
       ) : null}
 

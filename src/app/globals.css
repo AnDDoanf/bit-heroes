@@ -450,6 +450,11 @@ select {
   border-color: rgba(182, 81, 45, 0.45);
 }
 
+.panel-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .panel-btn.active {
   background: #fff2de;
   color: var(--accent);
@@ -723,8 +728,30 @@ select {
   display: block;
 }
 
+.node-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
 .node-row strong {
   display: block;
+}
+
+.owned-badge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(31, 122, 114, 0.24);
+  background: rgba(31, 122, 114, 0.1);
+  color: var(--accent-2);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .node-row.rarity-common,
@@ -831,6 +858,75 @@ select {
   padding: 12px;
   animation: floatBob 4.8s ease-in-out infinite;
   transition: transform 0.22s ease, filter 0.22s ease;
+}
+
+.ownership-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ownership-summary div,
+.ownership-panel {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.ownership-summary div {
+  padding: 12px 14px;
+}
+
+.ownership-summary span,
+.ownership-field span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.ownership-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: flex-end;
+  margin-top: 18px;
+  padding: 16px;
+  background:
+    radial-gradient(circle at top right, rgba(31, 122, 114, 0.12), transparent 38%),
+    linear-gradient(135deg, rgba(240, 250, 247, 0.92), rgba(255, 255, 255, 0.7));
+}
+
+.ownership-note {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.4;
+  max-width: 34ch;
+}
+
+.ownership-control {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.ownership-field {
+  display: grid;
+  gap: 6px;
+  min-width: 120px;
+}
+
+.ownership-field input {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #fffdf8;
+  color: var(--ink);
+  border-radius: 14px;
+  padding: 10px 12px;
 }
 
 .thumb {
@@ -1264,12 +1360,17 @@ select {
   .dashboard-grid-wide,
   .workspace,
   .detail-top,
+  .ownership-panel,
   .stat-grid,
   .ability-grid {
     grid-template-columns: 1fr;
   }
 
   .filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ownership-summary {
     grid-template-columns: 1fr;
   }
 
