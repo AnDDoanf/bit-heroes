@@ -20,7 +20,6 @@ export function Header({ activeTab, setActiveTab }) {
       items: [
         { id: "familiars", label: "Familiars" },
         { id: "augments", label: "Augments" },
-        { id: "favorites", label: "Favorites" },
       ],
     },
     {

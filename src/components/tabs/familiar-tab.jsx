@@ -8,7 +8,6 @@ import {
 } from "../../utils";
 import { FavoriteButton } from "../ui/favorite-button";
 import { PanelButton } from "../ui/panel-button";
-import { RequirementBadge } from "../ui/requirement-badge";
 import { TreeNode } from "../ui/tree-node";
 import { RequirementPills } from "../ui/requirement-pills";
 import { SkillCards } from "../ui/skill-cards";
@@ -20,6 +19,8 @@ export function FamiliarTab({
   setQuery,
   selectedKey,
   setSelectedKey,
+  favoritesOnly,
+  setFavoritesOnly,
   favoriteKeys,
   ownedCounts,
   onToggleFavorite,
@@ -49,6 +50,10 @@ export function FamiliarTab({
     const search = query.trim().toLowerCase();
 
     const nodes = familiarData.nodes.filter((node) => {
+      if (favoritesOnly && !favoriteKeys.includes(node.nodeKey)) {
+        return false;
+      }
+
       if (
         rarityFilter !== "all" &&
         node.rarity?.toLowerCase() !== rarityFilter
@@ -73,12 +78,15 @@ export function FamiliarTab({
     });
 
     return sortNodes(nodes, sortOrder);
-  }, [familiarData.nodes, query, rarityFilter, sortOrder]);
+  }, [familiarData.nodes, favoriteKeys, favoritesOnly, query, rarityFilter, sortOrder]);
 
   const selectedNode =
-    familiarData.nodeIndex[selectedKey] ||
-    filteredNodes[0] ||
-    familiarData.nodes[0];
+    filteredNodes.find((node) => node.nodeKey === selectedKey) ||
+    (favoritesOnly
+      ? filteredNodes[0] || null
+      : familiarData.nodeIndex[selectedKey] ||
+        filteredNodes[0] ||
+        familiarData.nodes[0]);
   const selectedOwnedCount = selectedNode
     ? ownedCounts[selectedNode.nodeKey] || 0
     : 0;
@@ -130,6 +138,18 @@ export function FamiliarTab({
     onSetOwnedCount(selectedNode.nodeKey, nextCount);
   }
 
+  function handleSelectNode(nodeKey, allowFilterReset = false) {
+    if (allowFilterReset && favoritesOnly && !favoriteKeys.includes(nodeKey)) {
+      setFavoritesOnly(false);
+    }
+
+    setSelectedKey(nodeKey);
+  }
+
+  const emptyFavoritesMessage = favoriteKeys.length
+    ? "No favorite familiars match the current search and rarity filters."
+    : "No favorite familiars yet. Save one from the detail view to track it here.";
+
   return (
     <section className="workspace">
       <aside className="panel-sidebar">
@@ -173,6 +193,20 @@ export function FamiliarTab({
             </select>
           </label>
         </div>
+        <div className="filter-grid single">
+          <label className="filter-field">
+            <span>Saved</span>
+            <select
+              value={favoritesOnly ? "favorites" : "all"}
+              onChange={(event) =>
+                setFavoritesOnly(event.target.value === "favorites")
+              }
+            >
+              <option value="all">All familiars</option>
+              <option value="favorites">Favorites only</option>
+            </select>
+          </label>
+        </div>
         <div className="ownership-summary">
           <div>
             <span>Total Owned</span>
@@ -183,39 +217,47 @@ export function FamiliarTab({
             <strong>{ownedSummary.unique}</strong>
           </div>
         </div>
-        <div className="node-list">
-          {filteredNodes.map((node) => (
-            <button
-              key={node.nodeKey}
-              className={`node-row ${node.imagePath ? "has-icon" : "no-icon"} ${rarityClassName(node.rarity)} ${selectedNode?.nodeKey === node.nodeKey ? "active" : ""
-                }`}
-              onClick={() => setSelectedKey(node.nodeKey)}
-              type="button"
-            >
-              {node.imagePath ? (
-                <img
-                  className="thumb small"
-                  src={assetUrl(node.imagePath)}
-                  alt={node.name}
-                />
-              ) : null}
-              <span className="node-copy">
-                <strong>{node.name}</strong>
-                <small>
-                  {node.type === "fusion"
-                    ? `${node.rarity} fusion`
-                    : `${node.rarity} familiar`}
-                  {node.subgroup ? ` / ${node.subgroup}` : ""}
-                </small>
-                {(ownedCounts[node.nodeKey] || 0) > 0 ? (
-                  <em className="owned-badge">
-                    Owned {ownedCounts[node.nodeKey]}
-                  </em>
+        {filteredNodes.length ? (
+          <div className="node-list">
+            {filteredNodes.map((node) => (
+              <button
+                key={node.nodeKey}
+                className={`node-row ${node.imagePath ? "has-icon" : "no-icon"} ${rarityClassName(node.rarity)} ${selectedNode?.nodeKey === node.nodeKey ? "active" : ""
+                  }`}
+                onClick={() => handleSelectNode(node.nodeKey)}
+                type="button"
+              >
+                {node.imagePath ? (
+                  <img
+                    className="thumb small"
+                    src={assetUrl(node.imagePath)}
+                    alt={node.name}
+                  />
                 ) : null}
-              </span>
-            </button>
-          ))}
-        </div>
+                <span className="node-copy">
+                  <strong>{node.name}</strong>
+                  <small>
+                    {node.type === "fusion"
+                      ? `${node.rarity} fusion`
+                      : `${node.rarity} familiar`}
+                    {node.subgroup ? ` / ${node.subgroup}` : ""}
+                  </small>
+                  {(ownedCounts[node.nodeKey] || 0) > 0 ? (
+                    <em className="owned-badge">
+                      Owned {ownedCounts[node.nodeKey]}
+                    </em>
+                  ) : null}
+                </span>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <p className="empty-state">
+            {favoritesOnly
+              ? emptyFavoritesMessage
+              : "No familiars match the current filters."}
+          </p>
+        )}
       </aside>
 
       <section className="detail-stack">
@@ -440,7 +482,7 @@ export function FamiliarTab({
                           key={nodeKey}
                           className="dependency-pill"
                           type="button"
-                          onClick={() => setSelectedKey(nodeKey)}
+                          onClick={() => handleSelectNode(nodeKey, true)}
                         >
                           {node?.name || nodeKey}
                         </button>
@@ -456,7 +498,15 @@ export function FamiliarTab({
               </div>
             </article>
           </>
-        ) : null}
+        ) : (
+          <article className="panel">
+            <p className="empty-state">
+              {favoritesOnly
+                ? emptyFavoritesMessage
+                : "Pick a familiar from the list to inspect its details."}
+            </p>
+          </article>
+        )}
       </section>
     </section>
   );

@@ -36,15 +36,18 @@ export function parseUrlState(nodeBySlug, petBySlug, equipmentBySlug) {
       selectedKey: "",
       selectedPetKey: "",
       selectedEquipmentKey: "",
+      favoritesOnly: false,
     };
   }
 
   const params = new URLSearchParams(window.location.search);
   const requestedTab = params.get("tab");
+  const favoritesOnly =
+    requestedTab === "favorites" ||
+    (requestedTab === "familiars" && params.get("favorites") === "1");
   const tab =
     requestedTab === "familiars" ||
     requestedTab === "materials" ||
-    requestedTab === "favorites" ||
     requestedTab === "dashboard" ||
     requestedTab === "pets" ||
     requestedTab === "mounts" ||
@@ -53,6 +56,8 @@ export function parseUrlState(nodeBySlug, petBySlug, equipmentBySlug) {
     requestedTab === "augments" ||
     requestedTab === "runes"
       ? requestedTab
+      : requestedTab === "favorites"
+        ? "familiars"
       : "dashboard";
   const id = params.get("id") || "";
   const selectedKey =
@@ -66,7 +71,13 @@ export function parseUrlState(nodeBySlug, petBySlug, equipmentBySlug) {
       ? equipmentBySlug[id].nodeKey
       : "";
 
-  return { tab, selectedKey, selectedPetKey, selectedEquipmentKey };
+  return {
+    tab,
+    selectedKey,
+    selectedPetKey,
+    selectedEquipmentKey,
+    favoritesOnly,
+  };
 }
 
 export function buildUrlState(
@@ -74,6 +85,7 @@ export function buildUrlState(
   selectedNode,
   selectedPet,
   selectedEquipment,
+  favoritesOnly = false,
 ) {
   const params = new URLSearchParams();
 
@@ -81,10 +93,11 @@ export function buildUrlState(
     params.set("tab", activeTab);
   }
 
-  if (
-    (activeTab === "familiars" || activeTab === "favorites") &&
-    selectedNode?.slug
-  ) {
+  if (activeTab === "familiars" && favoritesOnly) {
+    params.set("favorites", "1");
+  }
+
+  if (activeTab === "familiars" && selectedNode?.slug) {
     params.set("id", selectedNode.slug);
   }
 

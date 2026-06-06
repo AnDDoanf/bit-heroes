@@ -8,7 +8,6 @@ import { DashboardTab } from "./tabs/dashboard-tab";
 import { EnchantsTab } from "./tabs/enchants-tab";
 import { EquipmentTab } from "./tabs/equipment-tab";
 import { FamiliarTab } from "./tabs/familiar-tab";
-import { FavoritesTab } from "./tabs/favorites-tab";
 import { AugmentsTab } from "./tabs/augments-tab";
 import { MaterialsTab } from "./tabs/materials-tab";
 import { PetsTab } from "./tabs/pets-tab";
@@ -93,6 +92,7 @@ export default function FamiliarBrowser({
   const [selectedKey, setSelectedKey] = useState(
     familiarData.nodes[0]?.nodeKey || "",
   );
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [selectedPetKey, setSelectedPetKey] = useState(
     petsData.pets[0]?.nodeKey || "",
   );
@@ -158,6 +158,7 @@ export default function FamiliarBrowser({
 
   function openNode(nodeKey) {
     setSelectedKey(nodeKey);
+    setFavoritesOnly(false);
     setActiveTab("familiars");
   }
 
@@ -170,6 +171,7 @@ export default function FamiliarBrowser({
     const applyUrlState = () => {
       const next = parseUrlState(nodeBySlug, petBySlug, equipmentBySlug);
       setActiveTab(next.tab);
+      setFavoritesOnly(next.favoritesOnly);
       if (next.selectedKey) {
         setSelectedKey(next.selectedKey);
       }
@@ -218,6 +220,7 @@ export default function FamiliarBrowser({
       selectedNode,
       selectedPet,
       selectedEquipment,
+      favoritesOnly,
     );
     const currentUrl = `${window.location.pathname}${window.location.search}`;
 
@@ -226,6 +229,7 @@ export default function FamiliarBrowser({
     }
   }, [
     activeTab,
+    favoritesOnly,
     selectedKey,
     selectedPetKey,
     selectedEquipmentKey,
@@ -263,6 +267,8 @@ export default function FamiliarBrowser({
           setQuery={setFamiliarQuery}
           selectedKey={selectedKey}
           setSelectedKey={setSelectedKey}
+          favoritesOnly={favoritesOnly}
+          setFavoritesOnly={setFavoritesOnly}
           favoriteKeys={favoriteKeys}
           ownedCounts={ownedCounts}
           onToggleFavorite={toggleFavorite}
@@ -319,16 +325,6 @@ export default function FamiliarBrowser({
           runesData={runesData}
           query={runeQuery}
           setQuery={setRuneQuery}
-        />
-      ) : null}
-
-      {activeTab === "favorites" ? (
-        <FavoritesTab
-          familiarData={familiarData}
-          selectedKey={selectedKey}
-          setSelectedKey={setSelectedKey}
-          favoriteKeys={favoriteKeys}
-          onToggleFavorite={toggleFavorite}
         />
       ) : null}
 
